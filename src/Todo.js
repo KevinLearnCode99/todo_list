@@ -10,7 +10,7 @@ function Todo({ taskName, id, RemoveTask, EditTask, DoneTask }) {
           <i className="fa-solid fa-pen-to-square edit_icon"></i>
         </button>
         <button onClick={() => DoneTask(id)}>
-          <i className="fa-solid fa-circle-check done_icon"></i>
+          <i className="fa-solid fa-circle-check done_icon"  ></i>
         </button>
       </div>
 
